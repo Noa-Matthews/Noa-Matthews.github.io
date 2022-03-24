@@ -1,0 +1,45 @@
+body{
+    background-color:black; 
+}
+
+div.poster{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+}
+
+div.small{
+    font-size: 16px;
+    font-family: arial;
+    text-align: center;
+    padding-bottom: 5px;
+    border-top: 1px solid black;
+}
+
+div.text{
+    font-family: arial;
+    text-align:center;
+    text-transform:uppercase;
+    transition:0.5s; 
+    border-top:1px solid black;
+}
+
+div.text.one{
+    font-size: 100px;
+    text-transform: lowercase;
+    transform: skew(40deg, 2deg);
+    color: rgb(0, 4, 255);
+
+}
+
+div.text.two{
+    font-size: 60px;
+    text-transform: capitalize;
+    transform: skew(30deg, -2deg);
+    color: red;
+}
+
+div.text.three{
+    font-size: 20px;
+    transform: skew(-30deg, 0deg);
+    color: rgb(0, 255, 21);
+}

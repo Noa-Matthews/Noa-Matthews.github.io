@@ -1,0 +1,67 @@
+body{
+    background-color:black; 
+}
+
+@font-face{
+    font-family:Avara-Bold Italiic;
+    src:url('Avara-BoldItalic.woff') format('woff');
+}
+
+@font-face{
+    font-family:picnic;
+    src:url('PicNic-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family:cantique;
+    src:url('Cantique-Normal.woff') format('woff');
+}
+
+div.poster{
+    background-color: rgb(72, 0, 75);
+    width: 75%;
+}
+
+div.small{
+    font-size: 16px;
+    font-family: arial;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top: 1px solid rgb(0, 0, 0);
+    color: whitesmoke;
+}
+
+div.text{
+    font-family:'arial';
+    text-transform:uppercase;
+    transition:0.5s; 
+    border-top:5px dotted rgb(255, 255, 255);
+}
+
+div.text.one{
+    font-family: 'cantique';
+    text-align:left;
+    font-size: 30px;
+    text-shadow: 3px 3px 0px rgba(0, 226, 226, 0.801);;
+    color: blueviolet;
+}
+
+div.text.two{
+    font-family: 'Avara-Bold Italiic';
+    text-align:right;
+    font-size: 60px;
+    text-shadow: 3px 3px 0px rgba(213, 111, 223, 0.801);;
+    color: rgb(106, 92, 238);
+}
+
+div.text.three{
+    font-family:'picnic';
+    text-align:center;
+    font-size: 120px;
+    text-shadow: 3px 3px 0px rgba(255, 255, 255, 0.801);;
+    color:rgba(80, 98, 255, 0.377);
+}
+
+
+
