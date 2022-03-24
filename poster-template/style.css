@@ -11,6 +11,7 @@ div.small{
     font-size: 16px;
     font-family: arial;
     text-align: center;
+    padding-top: 5px;
     padding-bottom: 5px;
     border-top: 1px solid black;
 }
@@ -23,6 +24,7 @@ div.text{
     border-top:1px solid black;
 }
 
+/* rule 1 - font size */
 div.text.one{
     font-size: 100px;
 }
@@ -33,4 +35,30 @@ div.text.two{
 
 div.text.three{
     font-size: 20px;
+}
+
+/* rule 2 - color */
+div.text.a{
+   color: red;
+}
+
+div.text.b{
+    color: blue;
+}
+
+div.text.c{
+    color: rgb(255, 230, 0);
+}
+
+/* rule 3 - alignment */
+div.text.x{
+    text-align: center;
+}
+
+div.text.y{
+    text-align:left;
+}
+
+div.text.z{
+    text-align:right;
 }
