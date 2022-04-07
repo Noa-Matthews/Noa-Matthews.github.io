@@ -1,0 +1,103 @@
+/* *{
+    outline: 1px solid cyan;
+} */
+
+@font-face{
+    font-family:Old English;
+    src:url('Old English Text MT V2.woff') format('woff');
+}
+
+body{
+    background-color:black; 
+}
+
+div.poster{
+    background-color: orange;
+    width: 75%;
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header1{
+    font-family: 'arial';
+    font-size: 150px;
+    letter-spacing: -10;
+    font-weight: bold;
+    text-align: right;
+}
+
+.header2{
+    font-family:Old English ;
+    font-size: 200px;
+    color: darkred;
+    text-shadow:5px 0px 0px rgb(255, 255, 255) ;
+    animation: skew 5s infinite;
+    transform: skew(20deg);
+    animation-direction:alternate;
+  }
+  
+  @keyframes skew {
+    0% {
+      transform: skewX(20deg);
+    }
+    100% {
+      transform: skewX(-20deg);
+    }
+  }
+
+div.col{
+    overflow: hidden;
+    /* border-radius: 100%; */
+}
+
+.space{
+    height: 1000px;
+    background-image: url('tvgif.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* third widths */
+
+div.w1-3{
+    width: 33.333%;
+}
+
+div.w2-3{
+    width: 66.666%;
+}
+
+/* half widths */
+
+div.w1-2{
+    width:50%
+}
+
+/* quater widths */
+
+div.w1-4{
+    width: 25%;
+}
+
+div.w3-4{
+    width: 75%;
+}
+
+/* full widths */
+
+div.w1-1{
+    width: 100%;
+}
+
+div.small{
+    font-size: 16px;
+    font-family: 'arial';
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

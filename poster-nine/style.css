@@ -1,0 +1,152 @@
+/* *{
+    outline: 1px solid cyan;
+} */
+
+body{
+    background-color:black; 
+}
+
+div.poster{
+    background-color: rgb(252, 252, 252);
+    width: 75%;
+    background-position: center;
+    background-size: cover;
+    background-image: url('space.jpg');
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    overflow: hidden;
+}
+
+/* third widths */
+
+div.w1-3{
+    width: 33.333%;
+}
+
+div.w2-3{
+    width: 66.666%;
+}
+
+/* half widths */
+
+div.w1-2{
+    width:50%
+}
+
+/* quater widths */
+
+div.w1-4{
+    width: 25%;
+}
+
+div.w3-4{
+    width: 75%;
+}
+
+/* full widths */
+
+div.w1-1{
+    width: 100%;
+}
+
+div.text{
+    font-family: arial narrow;
+    text-align:center;
+    text-transform:uppercase;
+    transition:0.5s; 
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    height: 550px;
+    background-color: black;
+}
+
+div.header{
+    font-size: 80px;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+div.small{
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(0, 0, 0);
+    line-height: 50px;
+}
+
+/* rule 1 - B */
+div.text.one{
+    background-image: url(B1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.text.two{
+    background-image: url(Y1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.text.three{
+    background-image: url(O1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* rule 2 - Y */
+div.text.a{
+    background-image: url(O2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.text.b{
+    background-image: url(B2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.text.c{
+    background-image: url(Y2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+/* /* rule 3 - O */
+div.text.x{
+    background-image: url(Y3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.text.y{
+    background-image: url(B3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.text.z{
+    background-image: url(O3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

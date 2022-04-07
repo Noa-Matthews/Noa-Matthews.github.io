@@ -12,7 +12,6 @@ div.poster{
 div.container{
     display: flex;
     flex-wrap: wrap;
-    border-radius: 100%;
 }
 
 @font-face{
@@ -22,8 +21,7 @@ div.container{
 
 div.col{
     overflow: hidden;
-    /* border-radius: 100%; */
-    border-radius: 50%;
+    border-radius: -20%;
 }
 
 /* third widths */
@@ -69,15 +67,15 @@ div.small{
 
 div.text{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 100px;
     text-align:center;
     text-transform:uppercase;
-    transition:0.5s; 
+    transition: 1s; 
     text-shadow: 1px 1px rgb(255, 255, 255);
 }
 
 /* rule 1 - font size */
-div.text.one{
+/* div.text.one{
     font-size: 55px;
 }
 
@@ -87,15 +85,17 @@ div.text.two{
 
 div.text.three{
     font-size: 45px;
-}
+} */
 
 /* rule 2 - color */
 div.text.a{
-    box-shadow: inset 10px 0px 10px rgb(194, 194, 194) ;
+    box-shadow: inset -10px -10px 10px rgb(194, 194, 194) ;
+    font-size: 110px;
 }
 
 div.text.b{
-    box-shadow: inset 0px 0px 10px rgb(206, 206, 206) ;
+    box-shadow: inset 0px 0px 20px rgb(206, 206, 206) ;
+    font-size: 90px;
 }
 
 div.text.c{
@@ -103,7 +103,7 @@ div.text.c{
 }
 
 /* rule 3 - alignment */
-div.text.x{
+/* div.text.x{
     transform: skew( 30deg,0deg);
 }
 
@@ -113,4 +113,4 @@ div.text.y{
 
 div.text.z{
     transform:skew(0deg,0deg);
-}
+} */
