@@ -63,15 +63,6 @@ div.text{
     color: rgb(0, 0, 0);
     font-size: 70px;
 }
- /* div.tv{
-    background-image: url('tvgif.gif');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 136, 255, 0.274);
-    box-shadow: inset 10px 0px 30px rgb(212, 0, 255) ;
-    border-radius: 100%;
- } */
 
 div.header{
     font-size: 80px;
@@ -125,7 +116,7 @@ div.text.c{
     color: rgb(255, 255, 255);
 } 
 
-/* /* rule 3 - alignment */
+/* /* rule 3 - random */
 div.text.x{
     font-family: 'Times New Roman', Times, serif;
     text-transform: lowercase;

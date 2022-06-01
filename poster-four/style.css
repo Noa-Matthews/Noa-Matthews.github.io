@@ -86,7 +86,7 @@ div.text.three{
     font-size: 100px;
 }
 
-/* rule 2 - color */
+/* rule 2 - skew */
 div.text.a{
     transform: skew(10deg, 0deg);
 }
@@ -99,7 +99,7 @@ div.text.c{
     transform: skew(0deg, 0deg);
 }
 
-/* rule 3 -  */
+/* rule 3 - background color */
 div.text.x{
    background-color: rgb(255, 251, 0);
 }

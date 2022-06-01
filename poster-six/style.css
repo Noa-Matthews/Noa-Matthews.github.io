@@ -1,11 +1,13 @@
+/* *{
+    outline: 1px solid cyan;
+} */
+
 body{
     background-color:rgb(0, 0, 0); 
 }
 
-
-
 div.poster{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 60, 0);
     width: 75%;
 }
 
@@ -14,12 +16,20 @@ div.container{
     flex-wrap: wrap;
 }
 
-@font-face{
-    font-family:Avara-Bold Italiic;
-    src:url('Avara-BoldItalic.woff') format('woff')
+div.col{
+    overflow: hidden;
+    border-radius: -20%;
 }
 
-div.col{
+.space{
+    height: 500px;
+    background-image: url('beam.gif');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.container2{
     overflow: hidden;
     border-radius: -20%;
 }
@@ -56,6 +66,12 @@ div.w1-1{
     width: 100%;
 }
 
+
+.header{
+    font-family:'Trebuchet MS';
+    font-size: 40px;
+}
+
 div.small{
     font-size: 16px;
     font-family: arial;
@@ -66,51 +82,52 @@ div.small{
 }
 
 div.text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align:center;
     text-transform:uppercase;
-    transition: 1s; 
-    text-shadow: 1px 1px rgb(255, 255, 255);
+    transition: 0.5s; 
 }
 
+
 /* rule 1 - font size */
-/* div.text.one{
-    font-size: 55px;
+div.text.one{
+    font-size: 50px;
+    color: beige;
 }
 
 div.text.two{
-    font-size: 50px;
+    font-size: 100px;
+    color: beige;    
 }
 
 div.text.three{
-    font-size: 45px;
-} */
+    font-size: 150px;
+    color: beige;
+}
 
-/* rule 2 - color */
+
+/* rule 2 - letter spacing */
 div.text.a{
-    box-shadow: inset -10px -10px 10px rgb(194, 194, 194) ;
-    font-size: 110px;
+    letter-spacing: -15px;
 }
 
 div.text.b{
-    box-shadow: inset 0px 0px 20px rgb(206, 206, 206) ;
-    font-size: 90px;
+    letter-spacing: 5px;
 }
 
 div.text.c{
-    box-shadow: inset 0px 0px 0px rgb(201, 201, 201) ;
+    letter-spacing: 50px;
 }
 
-/* rule 3 - alignment */
-/* div.text.x{
-    transform: skew( 30deg,0deg);
+/* rule 3 - shadow */
+div.text.x{
+    text-shadow: 5px -5px 1px #000;
 }
 
 div.text.y{
-    transform: skew(0deg,2deg);
+    text-shadow: -5px 5px 1px #000;
 }
 
 div.text.z{
-    transform:skew(0deg,0deg);
-} */
+    text-shadow: 2px 2px 1px #000;
+}
