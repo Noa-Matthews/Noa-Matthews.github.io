@@ -95,7 +95,7 @@ div.header {
     width: 100%;
     padding: 10px;
     border-bottom: 1px solid black ;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 div.logo {
@@ -150,6 +150,7 @@ div.about {
     color: black;
     border-top: 1px solid;
     border-bottom: 1px solid;
+    line-height: 3vw;
 }
 
 div.footnotes {
@@ -159,7 +160,7 @@ div.footnotes {
 
 div.note{
     width:33.333%;
-    padding:10px;
+    padding:2vw;
 }
 
 div.title {
@@ -230,6 +231,16 @@ div.item-subname{
     flex-wrap: wrap;
     font-family: Arial;
     color: black;
+    line-height: 1.5vw;
+}
+
+div.item-name-pg2{
+    font-size: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-family: Arial;
+    color: black;
+    font-family: Ovo-regular;
 }
 
 div.featureimage{
