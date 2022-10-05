@@ -1,0 +1,139 @@
+/* *{
+    outline: 1px solid cyan;
+} */
+
+body{
+    background-color:rgb(96, 219, 208); 
+}
+
+div.poster{
+    background-color: rgb(0, 0, 0);
+    height: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    overflow: hidden;
+}
+
+/* third widths */
+
+div.w1-3{
+    width: 33.333%;
+}
+
+div.w2-3{
+    width: 66.666%;
+}
+
+/* half widths */
+
+div.w1-2{
+    width:50%
+}
+
+/* quater widths */
+
+div.w1-4{
+    width: 25%;
+}
+
+div.w3-4{
+    width: 75%;
+}
+
+/* full widths */
+
+div.w1-1{
+    width: 100%;
+}
+
+div.text{
+    transition:0.5s; 
+    height: 13.333vw;
+}
+
+div.header{
+    font-size: 50px;
+    height: 100px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+/* rule 1 - HEAD */
+div.one{
+    background-image: url(head.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.two{
+    background-image: url(head\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.three{
+    background-image: url(head\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* rule 2 - TORSO */
+div.a{
+    background-image: url(torso.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.b{
+    background-image: url(torso\ 2.jfif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* div.c{
+    background-image: url(torso\ 3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+/* /* rule 3 - LEGS */
+
+div.x{
+    background-image: url(legs.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.y{
+    background-image: url(legs\ 2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* div.z{
+    background-image: url(legs\ 3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
