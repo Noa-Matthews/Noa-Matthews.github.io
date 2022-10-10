@@ -3,7 +3,7 @@
 } */
 
 body{
-    background-color:rgb(96, 219, 208); 
+    background-color:rgb(255, 255, 255); 
 }
 
 div.poster{
@@ -70,6 +70,13 @@ div.header{
     color: rgb(0, 0, 0);
 }
 
+DIV.SUB{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+}
 
 /* rule 1 - HEAD */
 div.one{
@@ -115,7 +122,7 @@ div.b{
     background-repeat: no-repeat;
 } */
 
-/* /* rule 3 - LEGS */
+/*  rule 3 - LEGS Note: I can't seem to use every variable for some reason?  */
 
 div.x{
     background-image: url(legs.jpg);
