@@ -6,15 +6,15 @@ $(function(){
     var xyz = ["x", "y", "z"];
 
     function randomClass() {
-        $(".text").each(function () {
+        $(".update").each(function () {
             $(this).removeClass(num);
             $(this).addClass(num[Math.floor(Math.random() * num.length)]);
         });
-        $(".text").each(function () {
+        $(".update").each(function () {
             $(this).removeClass(abc);
             $(this).addClass(abc[Math.floor(Math.random() * abc.length)]);
         });
-        $(".text").each(function () {
+        $(".update").each(function () {
             $(this).removeClass(xyz);
             $(this).addClass(xyz[Math.floor(Math.random() * xyz.length)]);
         });                

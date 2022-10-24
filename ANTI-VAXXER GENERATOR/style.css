@@ -34,22 +34,27 @@ div.w1-1{
     width: 100%;
 }
 
+@font-face{
+    font-family:ApfelGrotezk;
+    src:url('ApfelGrotezk-Fett.woff') format('woff');
+}
+
 body{
     background-color:rgb(255, 255, 255); 
 }
 
 div.sections{
-    background-color: white;
     display: flex;
     flex-wrap: wrap;
 }
 
 div.poster{
-    background-color: rgb(0, 0, 0);
     height: 40vw;
     margin-left: auto;
     margin-right: auto;
     width: 20vw;
+    border: dashed 1px black;
+
 }
 
 div.container{
@@ -61,27 +66,34 @@ div.col{
     overflow: hidden;
 }
 
-div.text{
+div.update{
     transition:0.5s; 
     height: 13.333vw;
 }
 
 div.header{
-    font-size: 50px;
-    height: 100px;
-    margin-top: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-family: ApfelGrotezk;
     text-transform: uppercase;
     text-align: center;
     color: rgb(0, 0, 0);
+    transform: rotate(-1deg);
 }
 
 DIV.SUB{
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     font-family: monospace;
     text-align: center;
     color: black;
+    border-top: 1px solid black;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    padding: 1vw;
+
 }
 
 div.interactive{
@@ -90,87 +102,214 @@ div.interactive{
 
 
 div.button {
-    font-size: 3vw;
+    font-size: 1vw;
     text-align: center;
-    margin-top: 15vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;
-    background-color: lightgray;
-    border-radius: 10px;
+    margin-top: 2vw;
+    margin-left: 45vw;
+    margin-right: 45vw;
+    font-family:monospace;
+    border: 1px dashed black;
     text-decoration: none;
     padding: 1vw;
+    border-radius: 1vw;
 }
 
 div.button:hover{
-    color:rgb(255, 255, 255);
-    box-shadow: inset -10px -5px 20px rgb(0, 0, 0);
+    box-shadow: inset -1px 1px 10px rgb(0, 0, 0);
+    font-style: italic;
 }
 
-/* rule 1 - HEAD */
-div.one{
-    background-image: url(head.png);
+/* all rules one,two,three, a,b,c and x,y,z - HEAD */
+
+div.head.one{
+    background-image: url('head0.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-div.two{
-    background-image: url(head\ 2.jpg);
+div.head.two{
+    background-image: url('head1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-div.three{
-    background-image: url(head\ 3.jpg);
+div.head.three{
+    background-image: url('head2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* rule 2 - TORSO */
-div.a{
-    background-image: url(torso.jpg);
+div.head.a{
+    background-image: url('head3.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-div.b{
-    background-image: url(torso\ 2.jfif);
+div.head.b{
+    background-image: url('head4.jpg');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* div.c{
-    background-image: url(torso\ 3.jpg);
+/* div.head.c{
+    background-image: url('head5');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.head.x{
+    background-image: url('head6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.head.y{
+    background-image: url('head7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.head.z{
+    background-image: url('head8.jpg');
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 } */
 
-/*  rule 3 - LEGS Note: I can't seem to use every variable for some reason?  */
+/* all rules one,two,three, a,b,c and x,y,z - TORSO */
 
-div.x{
-    background-image: url(legs.jpg);
+div.torso.one{
+    background-image: url('torso0.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-div.y{
-    background-image: url(legs\ 2.jpg);
+div.torso.two{
+    background-image: url('torso1.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* div.z{
-    background-image: url(legs\ 3.jpg);
+div.torso.three{
+    background-image: url('torso2.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.torso.a{
+    background-image: url('torso3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.torso.b{
+    background-image: url('torso4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* div.torso.c{
+    background-image: url('torso5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.torso.x{
+    background-image: url('torso6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.torso.y{
+    background-image: url('torso7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.torso.z{
+    background-image: url('torso8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  */
+
+/* legs */
+
+div.legs.one{
+    background-image: url('legs0.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.legs.two{
+    background-image: url('legs1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.legs.three{
+    background-image: url('legs2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.legs.a{
+    background-image: url('legs3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.legs.b{
+    background-image: url('legs4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* div.legs.c{
+    background-image: url('legs5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.legs.x{
+    background-image: url('legs6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.legs.y{
+    background-image: url('legs7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+ div.legs.z{
+    background-image: url('legs8.jpg');
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 } */
